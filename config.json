@@ -1,5 +1,5 @@
 {
-  "deviceId": "CompressionBench01",
+  "deviceId": "compression01",
   "deviceName": "Compression Bench 01",
   "test_duration_seconds": 100,
   "list_of_licenses": [
