@@ -1,5 +1,14 @@
 *.bat
+
+# Virtual environments
 simulatorENV/
+simulatorENV\
+.env
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
