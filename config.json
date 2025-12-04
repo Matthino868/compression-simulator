@@ -1,5 +1,5 @@
 {
-  "deviceId": "CompressionBench01",
+  "deviceId": 3,
   "deviceName": "Compression Bench 01",
   "test_duration_seconds": 100,
   "list_of_licenses": [
@@ -39623,7 +39623,7 @@
             },
             {
               "delta_t": 81.3,
-              "value": 81.2831764440664
+              "value": 83.0
             },
             {
               "delta_t": 81.35,
