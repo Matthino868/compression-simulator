@@ -28,7 +28,7 @@ class JsonRpcRequest(BaseModel):
 def jsonrpc_response(id: Union[str, int], result: Any = None, error: Optional[Dict[str, Any]] = None):
     if error:
         return {"jsonrpc": "2.0", "id": id, "error": error}
-    print(f"Response result: {result}")
+    # print(f"Response result: {result}")
     return {"jsonrpc": "2.0", "id": id, "result": result}
 
 def check_api_key(params: Dict[str, Any], req_id: Union[str, int]):
