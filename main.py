@@ -268,4 +268,4 @@ async def jsonrpc_handler(req: JsonRpcRequest):
         return jsonrpc_response(req.id, error={"code": -32000, "message": str(e)})
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=False)
